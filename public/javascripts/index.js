@@ -33,10 +33,7 @@ ListDemo = new Ext.Application({
 
         ListDemo.Viewport = new Ext.Panel ({
             fullscreen: true,
-            layout: {
-           type: 'vbox',
-           align: 'stretch'
-        },
+            layout: 'card',
             cardSwitchAnimation: 'slide',
 	    dockedItems: [{
 		    xtype: 'toolbar',
