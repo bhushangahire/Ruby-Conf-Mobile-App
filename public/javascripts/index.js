@@ -10,6 +10,7 @@ ListDemo = new Ext.Application({
 
         ListDemo.listPanel = new Ext.List({
             id: 'disclosurelist',
+	    layout: 'fit',
             store: ListDemo.ListStore,
             itemTpl: '<div class="contact">{time} : {task} </div>',	    
             grouped: true,
@@ -28,6 +29,9 @@ ListDemo = new Ext.Application({
             cardSwitchAnimation: {
 		    type: 'slide',
 		    cover: false
+		},
+	defaults: {
+		    scroll: 'vertical'
 		},
 	    dockedItems: [{
 		    xtype: 'toolbar',
