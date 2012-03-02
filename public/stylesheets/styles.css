@@ -12,7 +12,7 @@ color: #FFA;
 }
 
 
-.x-toolbar-dark{
+.x-list .x-list-item.x-item-selected, .x-toolbar-dark{
 
 background: #f85032; /* Old browsers */
 background: -moz-linear-gradient(top,  #f85032 0%, #f16f5c 50%, #f6290c 51%, #f02f17 71%, #e73827 100%); /* FF3.6+ */
@@ -37,7 +37,7 @@ color: #FFA;
  article div.photo img{width:178px;height:178px}
  article div.photo h3{font-size:16px;line-height:20px;font-weight:bold;color:#666666;padding:0;margin:0;text-align:center;background:transparent}
  article div.photo span.links{display:block;position:absolute;height:20px;background:white;top:170px;left:10px}
- article div.photo span.links a{display:block;width:20px;height:20px;background:transparent url("mini-icons.png") -20px -20px no-repeat;float:left;border:none;text-indent:-1000em;overflow:hidden}
+ article div.photo span.links a{display:block;width:20px;height:20px;background:transparent url("../images/mini-icons.png") -20px -20px no-repeat;float:left;border:none;text-indent:-1000em;overflow:hidden}
  article div.photo span.links a.website{background-position:-20px -20px}
  article div.photo span.links a.website:hover{background-position:-60px -20px}
  article div.photo span.links a.twitter{background-position:-20px -60px}

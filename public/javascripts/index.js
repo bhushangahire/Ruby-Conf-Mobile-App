@@ -5,7 +5,7 @@ ListDemo = new Ext.Application({
 
         ListDemo.detailPanel = new Ext.Panel({
             id: 'detailpanel',
-            tpl: '<article><div class="photo"><img src="images/charles_nutter.jpeg"><h3>Charles Oliver Nutter</h3><span class="links">	<a href="http://twitter.com/#!/headius" class="twitter">twitter</a><a href="http://blog.headius.com/" class="website">website</a></span></div><div class="wrap">&nbsp;</div><h3>Keynote</h3>	    <p>Charles Oliver Nutter, aka ""The <a href="http://jruby.org/">JRuby</a> Guy" aka <a href="https://twitter.com/#!/headius">@headius</a> will be delivering this year\'s keynote. Stay tuned for more updates!</p>	  </article>'
+            tpl: '{description}'
         });
 
         ListDemo.listPanel = new Ext.List({
