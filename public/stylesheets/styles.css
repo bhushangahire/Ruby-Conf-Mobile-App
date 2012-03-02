@@ -28,13 +28,13 @@ color: #FFA;
 }
 
 
- article{display:block;float:left;margin:3% 4% 3%1%;width:95%;padding:0;background:white;position:relative;color:#666666}
+ article{display:block;float:left;margin:3% 4% 3%  1%;width:95%;padding:0;background:white;position:relative;color:#666666}
  article a{color:#aa0000}
  article div.wrap{display:block;float:right;width:170px;height:180px}
  article div.wrap.copresenter{width:390px}
- article div.photo{display:block;position:absolute;background:white;padding:10px;width:178px;height:198px;top:-40px;right:-35px;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;border-radius:4px;-webkit-box-shadow:0 0 8px rgba(0,0,0,0.3);-moz-box-shadow:0 0 8px rgba(0,0,0,0.3);box-shadow:0 0 8px rgba(0,0,0,0.3);z-index:100}
+ article div.photo{display:block;position:absolute;background:white;padding:10px;width:178px;height:198px;right:0px;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;border-radius:4px;-webkit-box-shadow:0 0 8px rgba(0,0,0,0.3);-moz-box-shadow:0 0 8px rgba(0,0,0,0.3);box-shadow:0 0 8px rgba(0,0,0,0.3);z-index:100}
  article div.photo.copresenter{right:175px}
- article div.photo img{width:178px;height:178px}
+ article div.photo img{width:158px;height:158px}
  article div.photo h3{font-size:16px;line-height:20px;font-weight:bold;color:#666666;padding:0;margin:0;text-align:center;background:transparent}
  article div.photo span.links{display:block;position:absolute;height:20px;background:white;top:170px;left:10px}
  article div.photo span.links a{display:block;width:20px;height:20px;background:transparent url("../images/mini-icons.png") -20px -20px no-repeat;float:left;border:none;text-indent:-1000em;overflow:hidden}
