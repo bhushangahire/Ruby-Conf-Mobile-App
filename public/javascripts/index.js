@@ -12,7 +12,7 @@ ListDemo = new Ext.Application({
             id: 'disclosurelist',
 	    layout: 'fit',
             store: ListDemo.ListStore,
-            itemTpl: '<div class="contact">{time} : {task} </div>',	    
+            itemTpl: '<div class="contact"><span id="time">{time}</span> : {task} </div>',	    
             grouped: true,
 	    flex: 1,
             onItemDisclosure: function(record, btn, index) {
@@ -45,7 +45,17 @@ ListDemo = new Ext.Application({
                         handler: function() {
                             ListDemo.Viewport.setActiveItem('disclosurelist', {type:'slide', direction:'right'});
                         }
-                    }]
+                    },{
+                        text: 'Sort Track',
+                        ui: 'sort',
+			iconMask: true,
+                        handler: function() {
+                            ListDemo.ListStore.sort('task');
+			    ListDemo.Viewport.doLayout();
+                        }
+                    }
+
+		]
 		}],
             items: [ListDemo.listPanel, ListDemo.detailPanel]
         });

@@ -1,3 +1,12 @@
+#time{
+	color: #AA0000;
+}
+
+.contact{
+	padding: 5px;
+}
+
+
 .x-list-header{
 background: #cc0000; /* Old browsers */
 background: -moz-linear-gradient(top,  #cc0000 0%, #cc0000 100%); /* FF3.6+ */

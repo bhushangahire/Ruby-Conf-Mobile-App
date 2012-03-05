@@ -3,22 +3,6 @@ Ext.regModel('RubyConf', {
 });
 
 
-/*
-
-<article><div class=photo><img src="images/user_blank.png"><h3>Mitchell Hashimoto</h3><span class=links></span></div><div class=wrap>&nbsp;</div><h3>Rack Middleware as a General Purpose Abstraction</h3><p>We've all seen monolithic Rails models, pages and pages of methods all dumped into one class. Inevitably, someone starts moving things around just to feel about the line count, but doesn't make any real difference to the overall structure of the code. How can we reify actions on an object and simplify our classes?</p><p>In this talk I'll speak about using the concept of ""middleware"" (in the way Rack uses ""middleware"") as a general purpose abstraction for improving the organization, testability, and maintainability of complex pieces of code. I'll use my first hand experience of using middleware to power Vagrant (http://vagrantup.com), which is used by thousands of developers worldwide, as a foundation for the talk and for real world examples.</p><p>Some specific topics I'll cover with regards to middleware as a general purpose tool:</p><ul><li>What is Rack Middleware?</li><li>How do I integrate the concept into my non-Rack project? Why would I?</li><li>How has it been to maintain a large codebase with middleware?</li><li>How do I test middleware?</li><li>How does middleware improve the long-term maintainibility of the code?</li></ul><p></p></article>
-*/
-
-
-
-
-
-
-
-
-
-
-
-
 ListDemo.ListStore = new Ext.data.Store({
     model: 'RubyConf',
     sorters: 'date',
